@@ -13,9 +13,9 @@
             var rowIndex = undefined;
             $('#dg').datagrid({
                 //单个条件分页查询
-                //url: '${proPath}/supplier/selectPage.action',
+                //url: '${proPath}/supplier/selectPage',
                 //多个条件分页查询
-                //url: '${proPath}/supplier/selectPageUseDyc.action',
+                //url: '${proPath}/supplier/selectPageUseDyc',
                 striped: true,
                 fitColumns: true,
                 //pageSize: 10,
@@ -39,7 +39,7 @@
                             minimizable: false,
                             maximizable: false,
                             collapsible: false,
-                            content: "<iframe src='${proPath}/base/goURL/buyorder/selectGoods.action' height='100%' width='100%' frameborder='0' ></iframe>"
+                            content: "<iframe src='${proPath}/base/goURL/buyorder/selectGoods' height='100%' width='100%' frameborder='0' ></iframe>"
                         });
                     }
                 }, '-', {
@@ -92,7 +92,7 @@
                         $("#ff").form("enableValidation");
                         if ($("#ff").form("validate")) {
                             $('#ff').form('submit', {
-                                url: '${proPath}/buyOrder/insert.action',
+                                url: '${proPath}/buyOrder/insert',
                                 onSubmit: function (param) {
                                     param.rows = JSON.stringify(rows);
                                     return true;
@@ -205,7 +205,7 @@
                         minimizable: false,
                         maximizable: false,
                         collapsible: false,
-                        content: "<iframe src='${proPath}/base/goURL/buyorder/selectSupplier.action' height='100%' width='100%' frameborder='0' ></iframe>"
+                        content: "<iframe src='${proPath}/base/goURL/buyorder/selectSupplier' height='100%' width='100%' frameborder='0' ></iframe>"
                     });
                 },
                 prompt: '请输入供应商名称'

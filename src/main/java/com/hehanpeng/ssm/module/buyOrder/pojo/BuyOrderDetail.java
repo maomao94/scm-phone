@@ -1,4 +1,4 @@
-package com.generator.pojo;
+package com.hehanpeng.ssm.module.buyOrder.pojo;
 
 import java.math.BigDecimal;
 

@@ -1,14 +1,14 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.youmeek</groupId>
-    <artifactId>ssm</artifactId>
+    <groupId>com.hehanpeng</groupId>
+    <artifactId>scm</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ssm</name>
+    <name>scm</name>
     <description>
-        为了方便以后的一些问题的讲解特地准备一个最精简的 SpringMVC+Spring+Mybatis 框架整合，方便以后的一些问题的演示
+        手机进销存毕业设计
     </description>
     <url>http://code.YouMeek.com</url>
 

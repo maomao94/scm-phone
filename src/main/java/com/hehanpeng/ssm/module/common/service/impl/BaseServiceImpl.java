@@ -2,6 +2,8 @@ package com.hehanpeng.ssm.module.common.service.impl;
 
 import com.hehanpeng.ssm.module.account.mapper.AccountMapper;
 import com.hehanpeng.ssm.module.accountRecods.mapper.AccountRecordsMapper;
+import com.hehanpeng.ssm.module.buyOrder.mapper.BuyOrderDetailMapper;
+import com.hehanpeng.ssm.module.buyOrder.mapper.BuyOrderMapper;
 import com.hehanpeng.ssm.module.common.mapper.BaseMapper;
 import com.hehanpeng.ssm.module.common.pojo.Page;
 import com.hehanpeng.ssm.module.common.service.BaseService;
@@ -25,13 +27,13 @@ public class BaseServiceImpl<T> implements BaseService<T> {
 
     @Autowired
     protected GoodsMapper goodsMapper;
-    //
-//    @Autowired
-//    protected BuyOrderMapper buyOrderMapper;
-//
-//    @Autowired
-//    protected BuyOrderDetailMapper buyOrderDetailMapper;
-//
+
+    @Autowired
+    protected BuyOrderMapper buyOrderMapper;
+
+    @Autowired
+    protected BuyOrderDetailMapper buyOrderDetailMapper;
+
     @Autowired
     protected AccountRecordsMapper accountRecordsMapper;
 
